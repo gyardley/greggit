@@ -21,6 +21,6 @@ group :production do
   gem "rails_12factor", '~> 0.0.2' # Heroku Rails 4 requirement
 end
 
-group :test do
-  gem 'rspec', '~> 2.14.1'
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0.beta'
 end
